@@ -39,7 +39,6 @@ public class AuthenticationController {
         return new AuthenticationResponse(jwt);
     }*/
 
-
     @PostMapping("/authenticate")
     public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest request) {
 
